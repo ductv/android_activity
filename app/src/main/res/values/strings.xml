@@ -3,4 +3,7 @@
     <string name="btn_change">Change Activity</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_change_activity">Change activity</string>
+    <string name="btn_back">Back</string>#
+    <string name="btn_next">Next</string>
 </resources>
