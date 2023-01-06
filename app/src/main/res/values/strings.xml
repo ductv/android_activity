@@ -6,4 +6,6 @@
     <string name="btn_change_activity">Change activity</string>
     <string name="btn_back">Back</string>#
     <string name="btn_next">Next</string>
+    <string name="btn_sent_fr_01">Send</string>
+    <string name="btn_sent_fr_02">Send</string>
 </resources>

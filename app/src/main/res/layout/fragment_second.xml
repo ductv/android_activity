@@ -6,14 +6,33 @@
     android:background="@color/teal_200"
     tools:context=".SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/black"
-        android:text="Fragment 2"
-        android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Input data: "/>
+        <EditText
+            android:id="@+id/edt_data_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_send_fr_02"
+        android:layout_width="match_parent"
+        android:text="@string/btn_sent_fr_02"
+        android:background="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>
